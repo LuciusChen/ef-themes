@@ -247,9 +247,9 @@
 
 ;;;; Tab mappings
 
-      (bg-tab-bar      bg-alt)
-      (bg-tab-current  bg-main)
-      (bg-tab-other    bg-active)
+      (bg-tab-bar      bg-main)
+      (bg-tab-current  bg-mode-line)
+      (bg-tab-other    bg-main)
 
 ;;;; Rainbow mappings
 
