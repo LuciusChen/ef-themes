@@ -168,7 +168,7 @@
       (bg-region-intense "#cfb5f0")
 
 ;;; Mappings
-
+(border-mode-line-active    fg-dim)
 ;;;; General mappings
 
       (err red-warmer)
