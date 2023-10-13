@@ -1769,7 +1769,10 @@ text should not be underlined as well) yet still blend in."
     `(message-mml ((,c :foreground ,mail-part)))
     `(message-separator ((,c :background ,bg-active)))
 ;;;; mode-line
-    `(mode-line ((,c :inherit ef-themes-ui-variable-pitch :background ,bg-mode-line :foreground ,fg-mode-line)))
+    `(mode-line ((,c :inherit ef-themes-ui-variable-pitch 
+                   :box ,border-mode-line-active
+                   :background ,bg-mode-line 
+                   :foreground ,fg-mode-line)))
     `(mode-line-active ((,c :inherit mode-line)))
     `(mode-line-buffer-id ((,c :inherit bold)))
     `(mode-line-emphasis ((,c :inherit bold :foreground ,modeline-info)))
