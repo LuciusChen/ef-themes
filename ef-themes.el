@@ -1777,7 +1777,10 @@ text should not be underlined as well) yet still blend in."
     `(mode-line-buffer-id ((,c :inherit bold)))
     `(mode-line-emphasis ((,c :inherit bold :foreground ,modeline-info)))
     `(mode-line-highlight ((,c :inherit highlight)))
-    `(mode-line-inactive ((,c :inherit ef-themes-ui-variable-pitch :background ,bg-alt :foreground ,fg-dim)))
+    `(mode-line-inactive ((,c :inherit ef-themes-ui-variable-pitch 
+                            :box ,border-mode-line-inactive
+                            :background ,bg-alt 
+                            :foreground ,fg-dim)))
 ;;;; mood-line
     `(mood-line-modified ((,c :inherit italic)))
     `(mood-line-status-error ((,c :inherit error)))
